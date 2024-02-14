@@ -7,7 +7,17 @@
   <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   <Description>Undine bindings for RelEcs package</Description>
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <RepositoryUrl>https://github.com/tomaszcekalo/Undine.RelEcs</RepositoryUrl>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+  <PackageProjectUrl>https://github.com/tomaszcekalo/Undine.RelEcs</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="RelEcs" Version="1.5.1" />
